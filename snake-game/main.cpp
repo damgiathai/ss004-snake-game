@@ -24,6 +24,7 @@ public:
         }
     }
     void DiChuyen(int Huong){
+        //TODO: check
         for (int i = DoDai-1; i>0;i--)
             A[i] = A[i-1];
         if (Huong==0) A[0].x = A[0].x + 1;
@@ -51,7 +52,7 @@ int main()
         system("cls");
         r.Ve();
         r.DiChuyen(Huong);
-        Sleep(1900);
+        Sleep(300);
     }
 
     return 0;
