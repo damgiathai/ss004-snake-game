@@ -52,6 +52,7 @@ cd snake-game
 ```bash
 g++ main.cpp -o snake
 ```
+### 2. Run
 ```bash
 ./snake
 ```
