@@ -54,7 +54,7 @@ g++ main.cpp -o snake
 ```
 ### 2. Run
 ```bash
-./snake
+snake.exe
 ```
 
 ## ✨ Tính năng hiện có
