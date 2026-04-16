@@ -31,7 +31,7 @@ public:
         gotoxy(Qua.x, Qua.y); cout<<"*";
     }
 
-    void DiChuyen(int Huong){
+    void DiChuyen(int Huong, Point& Qua){
         for (int i = DoDai-1; i>0;i--)
             A[i] = A[i-1];
         if (Huong==0) A[0].x = A[0].x + 1;
@@ -79,7 +79,7 @@ int main()
             if (t=='a') Huong = 2;
             if (t=='w') Huong = 3;
             if (t=='d') Huong = 0;
-            if (t=='x') Huong = 1;
+            if (t=='s') Huong = 1;
         }
         system("cls");
         r.Ve(Qua);
